@@ -1,0 +1,14 @@
+PODS:
+  - ShareReader (0.1.0)
+
+DEPENDENCIES:
+  - ShareReader (from `../`)
+
+EXTERNAL SOURCES:
+  ShareReader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ShareReader: e3bf9c88eb40556c7d8693b8a25c1bfb03494839
+
+COCOAPODS: 0.38.2

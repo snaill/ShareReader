@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AA577D8BEDD7901D26AD431123C4B4A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAA5BEBF7E14BD3C181AD4B771522C1 /* ReplaceMe.m */; };
+		35D1C9AD2C586BC1A87774537B14003D /* Pods-ShareReader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E92AB73B6EA68E1F59AF7E91AF49BD1D /* Pods-ShareReader_Tests-dummy.m */; };
+		47E379F3C0F1F9D092EC874CA569E821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBEF7EE538D18F9CDAD21FAA89218E7 /* Foundation.framework */; };
+		5A9DF2241979B933321561BCF61DAFED /* ShareReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C50286A96E783666D0B6FB97E944C1 /* ShareReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79508723C3C937AB9AEC293AD7405CE1 /* ShareReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E2A2C1B2EC6442028177F84B99C98 /* ShareReader-dummy.m */; };
+		7C062ED7CF28580C7A0376E0FE0230F0 /* ShareReader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40C8C92FA24FF77A02FF23169AEE8C94 /* ShareReader.bundle */; };
+		8AED031006567DFE56ECA9FED9D8877B /* Pods-ShareReader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A1C96FD493A35CC75D445E38DBB1C7 /* Pods-ShareReader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5366823056AC58270B8855BB909248F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBEF7EE538D18F9CDAD21FAA89218E7 /* Foundation.framework */; };
+		B430F017A5D467EAEA3E61F269C89783 /* Pods-ShareReader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D745B1AF70CD561AD54729E385DEF3 /* Pods-ShareReader_Example-dummy.m */; };
+		CD189E07D2C685B1C4C83D9F5E178F64 /* Pods-ShareReader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8FAC742FE0C76984451ED1227AEA09 /* Pods-ShareReader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF3C54736416C35A392CD5FA53B6B1E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBEF7EE538D18F9CDAD21FAA89218E7 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85CD4D629A37447E9D6C515B51F83471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639FDBA6CDCAB1326AC151888E193F6F;
+			remoteInfo = ShareReader;
+		};
+		9F8AF47DBE44115D9C4A32B3EF6D789C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16444D8C8E1A8E0166ECFDADD701AE17;
+			remoteInfo = "ShareReader-ShareReader";
+		};
+		C65C3199BEDBA9289117FC0971710489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639FDBA6CDCAB1326AC151888E193F6F;
+			remoteInfo = ShareReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0219AABCA0BDA4A86D914FAE27A76FD6 /* Pods-ShareReader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareReader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		179D24087CA8E3404DB5FEDEC2AD27E9 /* Pods-ShareReader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1910BAF9E6E226673ED88444AB92F85F /* Pods-ShareReader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareReader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1DAA5BEBF7E14BD3C181AD4B771522C1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		24B269BE92FD99DCEA42AEBFF16FE4BF /* Pods_ShareReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareReader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBEF7EE538D18F9CDAD21FAA89218E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38D745B1AF70CD561AD54729E385DEF3 /* Pods-ShareReader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareReader_Example-dummy.m"; sourceTree = "<group>"; };
+		3F8FAC742FE0C76984451ED1227AEA09 /* Pods-ShareReader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareReader_Example-umbrella.h"; sourceTree = "<group>"; };
+		40C50286A96E783666D0B6FB97E944C1 /* ShareReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShareReader-umbrella.h"; sourceTree = "<group>"; };
+		40C8C92FA24FF77A02FF23169AEE8C94 /* ShareReader.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareReader.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A1C96FD493A35CC75D445E38DBB1C7 /* Pods-ShareReader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareReader_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4C81EE1FA70B5C581084B70D1BADD5B5 /* Pods-ShareReader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareReader_Example-frameworks.sh"; sourceTree = "<group>"; };
+		54E994A8BD3FAFDC2EBEAE5EBE30D3D1 /* Pods-ShareReader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareReader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A625873355223962C41DBBCD8116A6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D146F99F0451AE68EFE766C8553CB63 /* Pods-ShareReader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShareReader_Example.modulemap"; sourceTree = "<group>"; };
+		5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ShareReader-Private.xcconfig"; sourceTree = "<group>"; };
+		606F2398F22E50921E0E03D6F9477C5A /* Pods-ShareReader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6BDD063D51F93B92DB61FD746998344B /* ShareReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShareReader-prefix.pch"; sourceTree = "<group>"; };
+		6C62FD915348BB20A2C64056A6A665F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F3FC43D76CA7648731EA77BA335BD8 /* Pods-ShareReader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		772E4FA89B6D634EC1E62D4D7C7F25C6 /* Pods-ShareReader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShareReader_Tests.modulemap"; sourceTree = "<group>"; };
+		840836973C095EA4D344FC1FA4BBB793 /* ShareReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ShareReader.modulemap; sourceTree = "<group>"; };
+		9C88D36959ADFD06D0953DD3301B002E /* Pods_ShareReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareReader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A0C3B452CC7C4D34FBD786CD5D82F6 /* Pods-ShareReader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AAA97666696C56DB71D8D342AD08253D /* Pods-ShareReader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareReader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD14E2ABB50C30420CEFDA2FE8F40E5B /* Pods-ShareReader_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareReader_Tests-resources.sh"; sourceTree = "<group>"; };
+		AF6E2A2C1B2EC6442028177F84B99C98 /* ShareReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShareReader-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD490985809CA03AEB69F2089D636DE7 /* ShareReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C8B06C1EE86ED806359FA8691A654C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2B8CD973B82F92A5C3885A4ED98897 /* Pods-ShareReader_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareReader_Example-resources.sh"; sourceTree = "<group>"; };
+		E92AB73B6EA68E1F59AF7E91AF49BD1D /* Pods-ShareReader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareReader_Tests-dummy.m"; sourceTree = "<group>"; };
+		F8BCD773326CE511920B97A4BE8EC5FA /* ShareReader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShareReader.xcconfig; sourceTree = "<group>"; };
+		FEA1FD7BD378A9517D46A192C07B508A /* Pods-ShareReader_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareReader_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E402FF36D7DD0F8E6035294E6F7719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C01C997FFAE379EE837601A9018549F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5366823056AC58270B8855BB909248F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963C2D028BA0A6EA4CCBA234584DA553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E379F3C0F1F9D092EC874CA569E821 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D2F9492E947D6C7530BAB6117C9B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3C54736416C35A392CD5FA53B6B1E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D3B1F4BB987C5CC3A452FA0ED4CFE9 /* Pods-ShareReader_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5A625873355223962C41DBBCD8116A6F /* Info.plist */,
+				772E4FA89B6D634EC1E62D4D7C7F25C6 /* Pods-ShareReader_Tests.modulemap */,
+				0219AABCA0BDA4A86D914FAE27A76FD6 /* Pods-ShareReader_Tests-acknowledgements.markdown */,
+				1910BAF9E6E226673ED88444AB92F85F /* Pods-ShareReader_Tests-acknowledgements.plist */,
+				E92AB73B6EA68E1F59AF7E91AF49BD1D /* Pods-ShareReader_Tests-dummy.m */,
+				FEA1FD7BD378A9517D46A192C07B508A /* Pods-ShareReader_Tests-frameworks.sh */,
+				AD14E2ABB50C30420CEFDA2FE8F40E5B /* Pods-ShareReader_Tests-resources.sh */,
+				42A1C96FD493A35CC75D445E38DBB1C7 /* Pods-ShareReader_Tests-umbrella.h */,
+				76F3FC43D76CA7648731EA77BA335BD8 /* Pods-ShareReader_Tests.debug.xcconfig */,
+				179D24087CA8E3404DB5FEDEC2AD27E9 /* Pods-ShareReader_Tests.release.xcconfig */,
+			);
+			name = "Pods-ShareReader_Tests";
+			path = "Target Support Files/Pods-ShareReader_Tests";
+			sourceTree = "<group>";
+		};
+		0C12B7C182E13F8C63F1A70820C7F070 /* ShareReader */ = {
+			isa = PBXGroup;
+			children = (
+				7CA521EDEE6EC5E21DD49CEBFB7AE9EE /* Pod */,
+				E55B611108684BE89E38E1AAB4D7C693 /* Support Files */,
+			);
+			name = ShareReader;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		12F83FC917FA286C87B0DF93EB6B584A /* Pods-ShareReader_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6C62FD915348BB20A2C64056A6A665F1 /* Info.plist */,
+				5D146F99F0451AE68EFE766C8553CB63 /* Pods-ShareReader_Example.modulemap */,
+				AAA97666696C56DB71D8D342AD08253D /* Pods-ShareReader_Example-acknowledgements.markdown */,
+				54E994A8BD3FAFDC2EBEAE5EBE30D3D1 /* Pods-ShareReader_Example-acknowledgements.plist */,
+				38D745B1AF70CD561AD54729E385DEF3 /* Pods-ShareReader_Example-dummy.m */,
+				4C81EE1FA70B5C581084B70D1BADD5B5 /* Pods-ShareReader_Example-frameworks.sh */,
+				CC2B8CD973B82F92A5C3885A4ED98897 /* Pods-ShareReader_Example-resources.sh */,
+				3F8FAC742FE0C76984451ED1227AEA09 /* Pods-ShareReader_Example-umbrella.h */,
+				A5A0C3B452CC7C4D34FBD786CD5D82F6 /* Pods-ShareReader_Example.debug.xcconfig */,
+				606F2398F22E50921E0E03D6F9477C5A /* Pods-ShareReader_Example.release.xcconfig */,
+			);
+			name = "Pods-ShareReader_Example";
+			path = "Target Support Files/Pods-ShareReader_Example";
+			sourceTree = "<group>";
+		};
+		3CC6CC139AC7A217351A2FD59EAD02B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1DAA5BEBF7E14BD3C181AD4B771522C1 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2FBEF7EE538D18F9CDAD21FAA89218E7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CA521EDEE6EC5E21DD49CEBFB7AE9EE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3CC6CC139AC7A217351A2FD59EAD02B2 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				D3D1AE22B0D97F49349C84A821D6344F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				F790127E04F114986AA6343F2D27299A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24B269BE92FD99DCEA42AEBFF16FE4BF /* Pods_ShareReader_Example.framework */,
+				9C88D36959ADFD06D0953DD3301B002E /* Pods_ShareReader_Tests.framework */,
+				40C8C92FA24FF77A02FF23169AEE8C94 /* ShareReader.bundle */,
+				BD490985809CA03AEB69F2089D636DE7 /* ShareReader.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D1AE22B0D97F49349C84A821D6344F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C12B7C182E13F8C63F1A70820C7F070 /* ShareReader */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E55B611108684BE89E38E1AAB4D7C693 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C8B06C1EE86ED806359FA8691A654C /* Info.plist */,
+				840836973C095EA4D344FC1FA4BBB793 /* ShareReader.modulemap */,
+				F8BCD773326CE511920B97A4BE8EC5FA /* ShareReader.xcconfig */,
+				5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */,
+				AF6E2A2C1B2EC6442028177F84B99C98 /* ShareReader-dummy.m */,
+				6BDD063D51F93B92DB61FD746998344B /* ShareReader-prefix.pch */,
+				40C50286A96E783666D0B6FB97E944C1 /* ShareReader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ShareReader";
+			sourceTree = "<group>";
+		};
+		F790127E04F114986AA6343F2D27299A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12F83FC917FA286C87B0DF93EB6B584A /* Pods-ShareReader_Example */,
+				04D3B1F4BB987C5CC3A452FA0ED4CFE9 /* Pods-ShareReader_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		434E34556977E3C1020EF6089A21F215 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9DF2241979B933321561BCF61DAFED /* ShareReader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD43D9126B918ABC7A3A62DDFB1DAC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD189E07D2C685B1C4C83D9F5E178F64 /* Pods-ShareReader_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48E6E7F48969ABCAAFC604F16EDC691 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AED031006567DFE56ECA9FED9D8877B /* Pods-ShareReader_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16444D8C8E1A8E0166ECFDADD701AE17 /* ShareReader-ShareReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80ED575A2BFBFF77F2619239A73B1FFE /* Build configuration list for PBXNativeTarget "ShareReader-ShareReader" */;
+			buildPhases = (
+				FBECF646A800CDCAA8A8733399C6A3C4 /* Sources */,
+				32E402FF36D7DD0F8E6035294E6F7719 /* Frameworks */,
+				AB57D08B1C3BF41E676581BD6E818452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShareReader-ShareReader";
+			productName = "ShareReader-ShareReader";
+			productReference = 40C8C92FA24FF77A02FF23169AEE8C94 /* ShareReader.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		639FDBA6CDCAB1326AC151888E193F6F /* ShareReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3CF90F8360ABF50145C2F0415DBD41 /* Build configuration list for PBXNativeTarget "ShareReader" */;
+			buildPhases = (
+				E3C68B2C212C802A7740EA9C74799301 /* Sources */,
+				5C01C997FFAE379EE837601A9018549F /* Frameworks */,
+				05B090B8856ADE3A216ACD9F9003CAE6 /* Resources */,
+				434E34556977E3C1020EF6089A21F215 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492BF96FE57BA786926089CD48E843B3 /* PBXTargetDependency */,
+			);
+			name = ShareReader;
+			productName = ShareReader;
+			productReference = BD490985809CA03AEB69F2089D636DE7 /* ShareReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6089E6DA38A813734B957A69BFA6D37 /* Pods-ShareReader_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEF8A4227A754B203D019A3A217C154 /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Tests" */;
+			buildPhases = (
+				CD0756A18487FAF0740E2CA01E6DD58D /* Sources */,
+				F6D2F9492E947D6C7530BAB6117C9B28 /* Frameworks */,
+				A48E6E7F48969ABCAAFC604F16EDC691 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB22A4E80B23F2B994C0137D36977CA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ShareReader_Tests";
+			productName = "Pods-ShareReader_Tests";
+			productReference = 9C88D36959ADFD06D0953DD3301B002E /* Pods_ShareReader_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5201FF5F9F4DF5CE5499833B97AC478 /* Pods-ShareReader_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97434C3BB91952C1E0860DFDF0F4A31C /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Example" */;
+			buildPhases = (
+				15D46AE205408BC80C02EF069173E8E5 /* Sources */,
+				963C2D028BA0A6EA4CCBA234584DA553 /* Frameworks */,
+				7BD43D9126B918ABC7A3A62DDFB1DAC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE25355918543F23A0503AE5B40CF95F /* PBXTargetDependency */,
+			);
+			name = "Pods-ShareReader_Example";
+			productName = "Pods-ShareReader_Example";
+			productReference = 24B269BE92FD99DCEA42AEBFF16FE4BF /* Pods_ShareReader_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5201FF5F9F4DF5CE5499833B97AC478 /* Pods-ShareReader_Example */,
+				A6089E6DA38A813734B957A69BFA6D37 /* Pods-ShareReader_Tests */,
+				639FDBA6CDCAB1326AC151888E193F6F /* ShareReader */,
+				16444D8C8E1A8E0166ECFDADD701AE17 /* ShareReader-ShareReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05B090B8856ADE3A216ACD9F9003CAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C062ED7CF28580C7A0376E0FE0230F0 /* ShareReader.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB57D08B1C3BF41E676581BD6E818452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D46AE205408BC80C02EF069173E8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B430F017A5D467EAEA3E61F269C89783 /* Pods-ShareReader_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0756A18487FAF0740E2CA01E6DD58D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D1C9AD2C586BC1A87774537B14003D /* Pods-ShareReader_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C68B2C212C802A7740EA9C74799301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA577D8BEDD7901D26AD431123C4B4A /* ReplaceMe.m in Sources */,
+				79508723C3C937AB9AEC293AD7405CE1 /* ShareReader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBECF646A800CDCAA8A8733399C6A3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		492BF96FE57BA786926089CD48E843B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ShareReader-ShareReader";
+			target = 16444D8C8E1A8E0166ECFDADD701AE17 /* ShareReader-ShareReader */;
+			targetProxy = 9F8AF47DBE44115D9C4A32B3EF6D789C /* PBXContainerItemProxy */;
+		};
+		AB22A4E80B23F2B994C0137D36977CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShareReader;
+			target = 639FDBA6CDCAB1326AC151888E193F6F /* ShareReader */;
+			targetProxy = 85CD4D629A37447E9D6C515B51F83471 /* PBXContainerItemProxy */;
+		};
+		EE25355918543F23A0503AE5B40CF95F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShareReader;
+			target = 639FDBA6CDCAB1326AC151888E193F6F /* ShareReader */;
+			targetProxy = C65C3199BEDBA9289117FC0971710489 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34136376573AE6263FF82BE73D1B02CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ShareReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3AC463051C8470ECBEB37BBABABA74AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F3FC43D76CA7648731EA77BA335BD8 /* Pods-ShareReader_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Tests/Pods-ShareReader_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShareReader_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FF3196F1A03654D3FCC83C7AF57C916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShareReader/ShareReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShareReader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShareReader/ShareReader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ShareReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63027A3547007B13B5481F718E52AA02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A0C3B452CC7C4D34FBD786CD5D82F6 /* Pods-ShareReader_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Example/Pods-ShareReader_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShareReader_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FD8352DB3F5C938048958B63FB69B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606F2398F22E50921E0E03D6F9477C5A /* Pods-ShareReader_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Example/Pods-ShareReader_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShareReader_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EF2CC0107BBED0ACD5954A55EF7DA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179D24087CA8E3404DB5FEDEC2AD27E9 /* Pods-ShareReader_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Tests/Pods-ShareReader_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShareReader_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2D50E7F8A51F6B233DBE39BB4C7485F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ShareReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EB1FC0E4DDC979FCF290F34C3EA1B6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShareReader/ShareReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShareReader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShareReader/ShareReader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ShareReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A3CF90F8360ABF50145C2F0415DBD41 /* Build configuration list for PBXNativeTarget "ShareReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1FC0E4DDC979FCF290F34C3EA1B6EF /* Debug */,
+				4FF3196F1A03654D3FCC83C7AF57C916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80ED575A2BFBFF77F2619239A73B1FFE /* Build configuration list for PBXNativeTarget "ShareReader-ShareReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34136376573AE6263FF82BE73D1B02CE /* Debug */,
+				A2D50E7F8A51F6B233DBE39BB4C7485F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97434C3BB91952C1E0860DFDF0F4A31C /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63027A3547007B13B5481F718E52AA02 /* Debug */,
+				7FD8352DB3F5C938048958B63FB69B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEF8A4227A754B203D019A3A217C154 /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC463051C8470ECBEB37BBABABA74AC /* Debug */,
+				8EF2CC0107BBED0ACD5954A55EF7DA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

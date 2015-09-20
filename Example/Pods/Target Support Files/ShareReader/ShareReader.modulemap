@@ -1,0 +1,6 @@
+framework module ShareReader {
+  umbrella header "ShareReader-umbrella.h"
+
+  export *
+  module * { export * }
+}

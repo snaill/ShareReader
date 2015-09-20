@@ -21,7 +21,7 @@ ShareReader是由分享派提供内容展示的SDK，通过ShareReader，您可�
 pod "ShareReader"
 ```
 
-* ShareReader基于ShareOne库，默认提供分享到微信/QQ的功能，您需要在AppDelegate.m中注册
+* ShareReader基于[ShareOne](https://github.com/snaill/ShareOne)库，默认提供分享到微信/QQ的功能，您需要在AppDelegate.m中注册
 
 ```ruby
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

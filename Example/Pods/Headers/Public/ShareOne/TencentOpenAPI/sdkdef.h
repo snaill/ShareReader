@@ -1,0 +1,1 @@
+../../../../ShareOne/Pod/SDK/TencentOpenAPI-2.9.0-min/TencentOpenAPI.framework/Headers/sdkdef.h

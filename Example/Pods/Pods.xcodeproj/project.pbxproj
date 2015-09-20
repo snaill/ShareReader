@@ -7,109 +7,275 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AA577D8BEDD7901D26AD431123C4B4A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAA5BEBF7E14BD3C181AD4B771522C1 /* ReplaceMe.m */; };
-		35D1C9AD2C586BC1A87774537B14003D /* Pods-ShareReader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E92AB73B6EA68E1F59AF7E91AF49BD1D /* Pods-ShareReader_Tests-dummy.m */; };
-		47E379F3C0F1F9D092EC874CA569E821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBEF7EE538D18F9CDAD21FAA89218E7 /* Foundation.framework */; };
-		5A9DF2241979B933321561BCF61DAFED /* ShareReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C50286A96E783666D0B6FB97E944C1 /* ShareReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79508723C3C937AB9AEC293AD7405CE1 /* ShareReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E2A2C1B2EC6442028177F84B99C98 /* ShareReader-dummy.m */; };
-		7C062ED7CF28580C7A0376E0FE0230F0 /* ShareReader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40C8C92FA24FF77A02FF23169AEE8C94 /* ShareReader.bundle */; };
-		8AED031006567DFE56ECA9FED9D8877B /* Pods-ShareReader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A1C96FD493A35CC75D445E38DBB1C7 /* Pods-ShareReader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5366823056AC58270B8855BB909248F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBEF7EE538D18F9CDAD21FAA89218E7 /* Foundation.framework */; };
-		B430F017A5D467EAEA3E61F269C89783 /* Pods-ShareReader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D745B1AF70CD561AD54729E385DEF3 /* Pods-ShareReader_Example-dummy.m */; };
-		CD189E07D2C685B1C4C83D9F5E178F64 /* Pods-ShareReader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8FAC742FE0C76984451ED1227AEA09 /* Pods-ShareReader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF3C54736416C35A392CD5FA53B6B1E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBEF7EE538D18F9CDAD21FAA89218E7 /* Foundation.framework */; };
+		04AAD1BB4E5F0608631080A756B78D81 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FFC5C860F8D98A5180D1D4C5F06B5C /* SVProgressHUD.m */; };
+		06A53CFD9BE7D3D004B99B702B5902B6 /* ShareOne.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0AB71D9C1E410024216584A5341CD0 /* ShareOne.m */; };
+		0CFC73761943A050FB58B37210265E64 /* ShareOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECBF14F2309A75096E5A87D23BA2411 /* ShareOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14F2A57AD2F9D97825E2257EEA8EDAF8 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = F9271F0D506E60B98F3F614F17530315 /* WXApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1732485106EA691601426D5119117A3C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA0439704EE6232BC2BD8592566245 /* QuartzCore.framework */; };
+		185A5B05F85886873CBD749D7FC5DF2C /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A59DF9B6718E9EC11EC8CE12E2B1F2D /* WXApiObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18DAF6242002040BB57C4EDF1C655C3C /* ReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D41E6686687DE397D2EF6CF67EAB77E2 /* ReaderViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E215F9EC95F93147B5B2E7AB1710C3E /* ShareReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C53407947A502D875EA987450957EDC5 /* ShareReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23ED0B53C493FD2E514BF5E426C1FF76 /* WeixinTimelineActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D0EEE60A754F44B315ACCA6467C432 /* WeixinTimelineActivity.m */; };
+		2A6E3DD508B5632035F87C5175B2DD36 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFD4D9E7E2BBD8BBC50AA1FCA88BBAE /* SVProgressHUD.framework */; };
+		2B755CF5443B8D3CBC8815949C23F734 /* icon_timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = C7082AEEA05E01E7B1D41F342F1F2ED3 /* icon_timeline.png */; };
+		3098633DC33A7D3E14227DF7565F7DD9 /* Pods-ShareReader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C57F3AFD39FD52CB0B35A810D411FEF8 /* Pods-ShareReader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31063720AB2116FEDA649C929C1CFC3A /* WeixinActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 273779E9E59B6541FA30F169DBC35900 /* WeixinActivity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34475F7BCFD4E317107D4615AD55D46D /* ShareReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9699175A152304004189A794C527A08C /* ShareReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38BB63E1EF03032533DC989A6040BADD /* QQApiActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8610F79C88B275796A2BB53416E286 /* QQApiActivity.m */; };
+		3D10B582BE01024FECF887408BBE6758 /* QQActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = C21A15BD03E321C2770F780A1F789C77 /* QQActivity.png */; };
+		3F9DE4265DAD90E61551D7A3D2CBEDAF /* icon_session@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11403E4E89884B32E191A013C76C8E3D /* icon_session@2x.png */; };
+		437A0F78EA056E3927CF5933B71EB3CA /* icon_timeline-8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B4B1646DA48B7C66F8838F8C1EC00D /* icon_timeline-8@2x.png */; };
+		482F1A331B37E546A20A2BDF591800C9 /* WeixinActivityBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A20AE9A61539D18A2F7D29F4ACCD00E /* WeixinActivityBase.m */; };
+		4E2F4DEA47E78168DAABBD4063ABC0E7 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF54E6ACFEF41C48CD44CB88A67CB6D0 /* SVProgressHUD-dummy.m */; };
+		52C572295CEACB8273135D00F66B6455 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8349CD1FB3A95D9854AC129B663067FF /* SVIndefiniteAnimatedView.m */; };
+		56B15284096B15777B34E240DBF6E304 /* WeixinSessionActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F92B41CBEA42F5BDF3773E327D02325 /* WeixinSessionActivity.m */; };
+		58AAFCBCF1715D46C55A63126880180F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E87DA3AD45A7E8A31BE4D462682BAF /* Foundation.framework */; };
+		5A8460F8B8E279E73F67493ED8E5623A /* icon_timeline-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 804680736C4AAD1A4112DF392197D975 /* icon_timeline-8.png */; };
+		5F73609C93A9A6DC3028B11CC784C983 /* QQActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB66A8243C5440FC8BEA973A9D202F1 /* QQActivity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60FE2284059986F37783B2DC508C4209 /* QQApiActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C15DED9E9FDF11D572EA086F619BEC /* QQApiActivity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68C17F68CA3E4A6D5B6274E51612FD63 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B608BC79B8B57A5DC40178B5F485C8 /* CoreTelephony.framework */; };
+		6D4A923D8C8C9D9D44B98DC50E50E5AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E7A6C695758A75DB2C240D55EA4F6A /* CoreGraphics.framework */; };
+		6EB765122B7B48CB1263630C1B3ADFF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E87DA3AD45A7E8A31BE4D462682BAF /* Foundation.framework */; };
+		714B35BF6AFE53C04878E06D49FC0BCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E87DA3AD45A7E8A31BE4D462682BAF /* Foundation.framework */; };
+		7359854A69FB4326EA76E18190203272 /* BaseActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 50148B10539D6873408FCB1CAA5FFD4F /* BaseActivity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		759CD61CB52355C3FD91C07D47961319 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3AD0DE76EBB048079F8AF817BA6AD81B /* SVProgressHUD.bundle */; };
+		78EC5B9FB21EFABD8D943DC51DB3F0CA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517DC295F7D171841356155D9A8C1AE1 /* Security.framework */; };
+		7B2B4CDBF0107CB6F9D0DCD5CAC721D2 /* ShareReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 678840C55EEC0E522F17D6AA484583A5 /* ShareReader.m */; };
+		7B6343E7E7B382B6994BFF3B30BB3F88 /* icon_session-8.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C9C236671592A6F59876485FE9B2EE /* icon_session-8.png */; };
+		8460678A4A66CB6CE1F379A6DA746226 /* Pods-ShareReader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 022356E2A137B4B90012121828EFA15F /* Pods-ShareReader_Tests-dummy.m */; };
+		8DD578670E0619DFC6D2D0CC0DAFCD83 /* QZoneActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = CD0F51FBAAA9C1AE789FD0C1D8C212C3 /* QZoneActivity.png */; };
+		94BE8D973DF96949F27F92D228B780C9 /* ShareOne.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB834F5018B5BC6DA04D505B75B7D06 /* ShareOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95CE834243A5A5868A8E3B0C103EA7B7 /* WeixinActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E5103D6224B39F2F4C4C6D33B31F7D /* WeixinActivity.m */; };
+		9DCD2BDDBF42D6F9D4CAB2E75EB79DB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E87DA3AD45A7E8A31BE4D462682BAF /* Foundation.framework */; };
+		9FE6EFC004F157E85C0377F31D967214 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F10CE597EB7BD406B93021DF60EAE253 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3DCB83AAC7CC229BC29682732D0369A /* Pods-ShareReader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FCFAC5604CB9AAB2D9C74B79A6FD2B /* Pods-ShareReader_Example-dummy.m */; };
+		A705886B30655DEF702B97955A3AF435 /* WeixinSessionActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C183734B61A786E8479FF38A80376DE /* WeixinSessionActivity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ABD541F84E7AFD8C33F55033E14ED8F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2642EA20DD88DBADD0A0E700620654 /* UIKit.framework */; };
+		B18408C88D333D7A03B152A006B1A2D1 /* Pods-ShareReader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E47FBDEEA43674CA01FD4F6D9ECBF6 /* Pods-ShareReader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B69903838479513DE1AC7189E87675AE /* icon_session.png in Resources */ = {isa = PBXBuildFile; fileRef = FE8991BA355C0C7E7E402349317896F7 /* icon_session.png */; };
+		BFC61A8CE3F54778E0C7A961F3D41923 /* ShareOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C533601D600169A03A6BA6CCCAA716 /* ShareOne.framework */; };
+		C2CBE30BA2298CB28260FA0B80C2E570 /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6E893B85051B6BB53A03C2CF988C0E /* ReaderViewController.m */; };
+		C572CEB3CC9614E34C4CFE4C100E3DA6 /* WeixinActivityBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 174BB08DF20DFFAA6076DCCE05E4CDF7 /* WeixinActivityBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC83A8F919732895A06F2E7807ED6FE6 /* icon_session-8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE3A856B92C3999F717159AF5943903 /* icon_session-8@2x.png */; };
+		CD978803242709668ADB925A80876486 /* QZoneActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A108C0D4C55ACCB56F96C54FB33AB7BC /* QZoneActivity.m */; };
+		D2D4EBF056147A5EA3055005763023A1 /* icon_timeline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1047E7EF48A34341D7D0276A358D400A /* icon_timeline@2x.png */; };
+		D4AA12CE6C5FB9B5B8A48743415F6409 /* WeixinTimelineActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA382FD7EC5B0A9819661EB1F3E4536 /* WeixinTimelineActivity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D63534FA0462AA9E1661C1E886EA2BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E87DA3AD45A7E8A31BE4D462682BAF /* Foundation.framework */; };
+		D649E8D0480DE49BCC19E7D5F1388D93 /* ShareReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E448C3D632798671BE209016BFDFD /* ShareReader-dummy.m */; };
+		DDFCB972400F036B89F86591D437022C /* BaseActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B71B81FF747DC414649DC38C3EA529 /* BaseActivity.m */; };
+		E3F0C1AC1155C8AB7BFECE0CE8644A85 /* QZoneActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 812B9B9B9617AEE623E003D5EB2800F9 /* QZoneActivity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB091B7B8162E456C8E38A0426777A94 /* QQActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E58581814292DB427A9D90488D2AA /* QQActivity.m */; };
+		ECCCF9ECC3B9F01651F740F794745B11 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6C861B5ED30C4B142D36B63D68A2DF /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3C3C7B469D1D7CE9F119A960457BC3F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4135DB257B1D108DA629041D431E3157 /* SystemConfiguration.framework */; };
+		F571377568F4E5BAA75B46531148950E /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA0652A3A064E1331077893B065BC08 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBEEDC62A0A5494C10449E86C0F44293 /* ShareOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1ABE6F15448919D6B212D3AFB618D7 /* ShareOne-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		85CD4D629A37447E9D6C515B51F83471 /* PBXContainerItemProxy */ = {
+		08ADC48EB308173C478EF930BD4C404D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 639FDBA6CDCAB1326AC151888E193F6F;
+			remoteGlobalIDString = 0CA81FCAF4B958DC141D89A794E4148F;
+			remoteInfo = ShareOne;
+		};
+		098B66BB94F3743FA354F2CA721B9A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1DC6D940C88DF6B8EB87810438D0E9;
+			remoteInfo = SVProgressHUD;
+		};
+		27165C30CC1B7BCAA5575A653479A953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE413D689D9039D444F909696A954E3;
 			remoteInfo = ShareReader;
 		};
-		9F8AF47DBE44115D9C4A32B3EF6D789C /* PBXContainerItemProxy */ = {
+		4D0B311D2DA08C3110B56513E5704D97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16444D8C8E1A8E0166ECFDADD701AE17;
-			remoteInfo = "ShareReader-ShareReader";
+			remoteGlobalIDString = 0CA81FCAF4B958DC141D89A794E4148F;
+			remoteInfo = ShareOne;
 		};
-		C65C3199BEDBA9289117FC0971710489 /* PBXContainerItemProxy */ = {
+		587D60E95DFB25532C7B184628C9B27C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 639FDBA6CDCAB1326AC151888E193F6F;
+			remoteGlobalIDString = FEE413D689D9039D444F909696A954E3;
 			remoteInfo = ShareReader;
+		};
+		71062A765A0B5CFCFF1E02E19B144489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1DC6D940C88DF6B8EB87810438D0E9;
+			remoteInfo = SVProgressHUD;
+		};
+		B2537DF417FA2E6FCFE699DF164FFA8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1DC6D940C88DF6B8EB87810438D0E9;
+			remoteInfo = SVProgressHUD;
+		};
+		BA9E07935C89A1432F96930EFC48D229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA81FCAF4B958DC141D89A794E4148F;
+			remoteInfo = ShareOne;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01FFC5C860F8D98A5180D1D4C5F06B5C /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		0219AABCA0BDA4A86D914FAE27A76FD6 /* Pods-ShareReader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareReader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		179D24087CA8E3404DB5FEDEC2AD27E9 /* Pods-ShareReader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		022356E2A137B4B90012121828EFA15F /* Pods-ShareReader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareReader_Tests-dummy.m"; sourceTree = "<group>"; };
+		0C8E58581814292DB427A9D90488D2AA /* QQActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QQActivity.m; path = Pod/Classes/QQActivity.m; sourceTree = "<group>"; };
+		0F42E3CD5D67F5BC3A159DC695028C7E /* Pods-ShareReader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0F92B41CBEA42F5BDF3773E327D02325 /* WeixinSessionActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WeixinSessionActivity.m; path = Pod/Classes/WeixinSessionActivity.m; sourceTree = "<group>"; };
+		1047E7EF48A34341D7D0276A358D400A /* icon_timeline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_timeline@2x.png"; path = "Pod/Assets/icon_timeline@2x.png"; sourceTree = "<group>"; };
+		11403E4E89884B32E191A013C76C8E3D /* icon_session@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_session@2x.png"; path = "Pod/Assets/icon_session@2x.png"; sourceTree = "<group>"; };
+		174BB08DF20DFFAA6076DCCE05E4CDF7 /* WeixinActivityBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeixinActivityBase.h; path = Pod/Classes/WeixinActivityBase.h; sourceTree = "<group>"; };
 		1910BAF9E6E226673ED88444AB92F85F /* Pods-ShareReader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareReader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1DAA5BEBF7E14BD3C181AD4B771522C1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		24B269BE92FD99DCEA42AEBFF16FE4BF /* Pods_ShareReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareReader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FBEF7EE538D18F9CDAD21FAA89218E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		38D745B1AF70CD561AD54729E385DEF3 /* Pods-ShareReader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareReader_Example-dummy.m"; sourceTree = "<group>"; };
-		3F8FAC742FE0C76984451ED1227AEA09 /* Pods-ShareReader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareReader_Example-umbrella.h"; sourceTree = "<group>"; };
-		40C50286A96E783666D0B6FB97E944C1 /* ShareReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShareReader-umbrella.h"; sourceTree = "<group>"; };
-		40C8C92FA24FF77A02FF23169AEE8C94 /* ShareReader.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareReader.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		42A1C96FD493A35CC75D445E38DBB1C7 /* Pods-ShareReader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareReader_Tests-umbrella.h"; sourceTree = "<group>"; };
+		25CCFCD346126281C178438062B9E425 /* Pods-ShareReader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		26FCFAC5604CB9AAB2D9C74B79A6FD2B /* Pods-ShareReader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareReader_Example-dummy.m"; sourceTree = "<group>"; };
+		273779E9E59B6541FA30F169DBC35900 /* WeixinActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeixinActivity.h; path = Pod/Classes/WeixinActivity.h; sourceTree = "<group>"; };
+		34C533601D600169A03A6BA6CCCAA716 /* ShareOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD0DE76EBB048079F8AF817BA6AD81B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		4135DB257B1D108DA629041D431E3157 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		4A20AE9A61539D18A2F7D29F4ACCD00E /* WeixinActivityBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WeixinActivityBase.m; path = Pod/Classes/WeixinActivityBase.m; sourceTree = "<group>"; };
+		4C183734B61A786E8479FF38A80376DE /* WeixinSessionActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeixinSessionActivity.h; path = Pod/Classes/WeixinSessionActivity.h; sourceTree = "<group>"; };
 		4C81EE1FA70B5C581084B70D1BADD5B5 /* Pods-ShareReader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareReader_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4ECBF14F2309A75096E5A87D23BA2411 /* ShareOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShareOne-umbrella.h"; sourceTree = "<group>"; };
+		50148B10539D6873408FCB1CAA5FFD4F /* BaseActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseActivity.h; path = Pod/Classes/BaseActivity.h; sourceTree = "<group>"; };
+		517DC295F7D171841356155D9A8C1AE1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		54E994A8BD3FAFDC2EBEAE5EBE30D3D1 /* Pods-ShareReader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareReader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A625873355223962C41DBBCD8116A6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD6C3B6EBDA797F9B93E4796965E960 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		5D146F99F0451AE68EFE766C8553CB63 /* Pods-ShareReader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShareReader_Example.modulemap"; sourceTree = "<group>"; };
-		5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ShareReader-Private.xcconfig"; sourceTree = "<group>"; };
-		606F2398F22E50921E0E03D6F9477C5A /* Pods-ShareReader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5D2642EA20DD88DBADD0A0E700620654 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5E3D0E30F3A350313A5A3FC72BA4687C /* Pods_ShareReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareReader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F13DD8697085738FB192535590D42A4 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		678840C55EEC0E522F17D6AA484583A5 /* ShareReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareReader.m; sourceTree = "<group>"; };
+		67B211A8F4AB63414674AD2EDE6C4726 /* ShareReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDD063D51F93B92DB61FD746998344B /* ShareReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShareReader-prefix.pch"; sourceTree = "<group>"; };
+		6C50ECC3E5B1FF9ED39F7DF5E4764F2C /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = Pod/SDK/WeChatSDK_1.5/libWeChatSDK.a; sourceTree = "<group>"; };
 		6C62FD915348BB20A2C64056A6A665F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76F3FC43D76CA7648731EA77BA335BD8 /* Pods-ShareReader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		71E5103D6224B39F2F4C4C6D33B31F7D /* WeixinActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WeixinActivity.m; path = Pod/Classes/WeixinActivity.m; sourceTree = "<group>"; };
 		772E4FA89B6D634EC1E62D4D7C7F25C6 /* Pods-ShareReader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShareReader_Tests.modulemap"; sourceTree = "<group>"; };
+		804680736C4AAD1A4112DF392197D975 /* icon_timeline-8.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_timeline-8.png"; path = "Pod/Assets/icon_timeline-8.png"; sourceTree = "<group>"; };
+		80C35519FE7572296D8CC79D4A96472B /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = "Pod/SDK/TencentOpenAPI-2.9.0-min/TencentOpenAPI.framework"; sourceTree = "<group>"; };
+		812B9B9B9617AEE623E003D5EB2800F9 /* QZoneActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QZoneActivity.h; path = Pod/Classes/QZoneActivity.h; sourceTree = "<group>"; };
+		8349CD1FB3A95D9854AC129B663067FF /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		840836973C095EA4D344FC1FA4BBB793 /* ShareReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ShareReader.modulemap; sourceTree = "<group>"; };
-		9C88D36959ADFD06D0953DD3301B002E /* Pods_ShareReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareReader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5A0C3B452CC7C4D34FBD786CD5D82F6 /* Pods-ShareReader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8AFD4D9E7E2BBD8BBC50AA1FCA88BBAE /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D060F87984CC5B4AC6DB640709A186D /* Pods-ShareReader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		91E87DA3AD45A7E8A31BE4D462682BAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		928B2DAD84BFB9287B9FECA9213DA65E /* SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		9699175A152304004189A794C527A08C /* ShareReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareReader.h; sourceTree = "<group>"; };
+		98B608BC79B8B57A5DC40178B5F485C8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		9931712DA2E9D06ED9912D6F0A87978F /* ShareOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ShareOne.modulemap; sourceTree = "<group>"; };
+		9A59DF9B6718E9EC11EC8CE12E2B1F2D /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = Pod/SDK/WeChatSDK_1.5/WXApiObject.h; sourceTree = "<group>"; };
+		9C6C861B5ED30C4B142D36B63D68A2DF /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		A108C0D4C55ACCB56F96C54FB33AB7BC /* QZoneActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QZoneActivity.m; path = Pod/Classes/QZoneActivity.m; sourceTree = "<group>"; };
+		A3B4B1646DA48B7C66F8838F8C1EC00D /* icon_timeline-8@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_timeline-8@2x.png"; path = "Pod/Assets/icon_timeline-8@2x.png"; sourceTree = "<group>"; };
 		AAA97666696C56DB71D8D342AD08253D /* Pods-ShareReader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareReader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB1ABE6F15448919D6B212D3AFB618D7 /* ShareOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShareOne-dummy.m"; sourceTree = "<group>"; };
 		AD14E2ABB50C30420CEFDA2FE8F40E5B /* Pods-ShareReader_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareReader_Tests-resources.sh"; sourceTree = "<group>"; };
-		AF6E2A2C1B2EC6442028177F84B99C98 /* ShareReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShareReader-dummy.m"; sourceTree = "<group>"; };
+		AEB8034586856778980CE4C76AD200A7 /* ShareOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF21DA33F8B66E3533909857DDF82D65 /* ShareOne-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ShareOne-Private.xcconfig"; sourceTree = "<group>"; };
+		B3C9C236671592A6F59876485FE9B2EE /* icon_session-8.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_session-8.png"; path = "Pod/Assets/icon_session-8.png"; sourceTree = "<group>"; };
+		B430334E987B6819308DF1B9D11CF1C4 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BD490985809CA03AEB69F2089D636DE7 /* ShareReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBF99C9E85388B9D0EBDE5EF4A27C63 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		BFEA0439704EE6232BC2BD8592566245 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C21A15BD03E321C2770F780A1F789C77 /* QQActivity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = QQActivity.png; path = Pod/Assets/QQActivity.png; sourceTree = "<group>"; };
+		C52B30FAC2E9FD5289783A86D8348CD3 /* ShareReader-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ShareReader-Private.xcconfig"; sourceTree = "<group>"; };
+		C53407947A502D875EA987450957EDC5 /* ShareReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShareReader-umbrella.h"; sourceTree = "<group>"; };
+		C57F3AFD39FD52CB0B35A810D411FEF8 /* Pods-ShareReader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareReader_Example-umbrella.h"; sourceTree = "<group>"; };
+		C5E7A6C695758A75DB2C240D55EA4F6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C7082AEEA05E01E7B1D41F342F1F2ED3 /* icon_timeline.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_timeline.png; path = Pod/Assets/icon_timeline.png; sourceTree = "<group>"; };
+		C8B71B81FF747DC414649DC38C3EA529 /* BaseActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseActivity.m; path = Pod/Classes/BaseActivity.m; sourceTree = "<group>"; };
 		C9C8B06C1EE86ED806359FA8691A654C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8610F79C88B275796A2BB53416E286 /* QQApiActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QQApiActivity.m; path = Pod/Classes/QQApiActivity.m; sourceTree = "<group>"; };
 		CC2B8CD973B82F92A5C3885A4ED98897 /* Pods-ShareReader_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareReader_Example-resources.sh"; sourceTree = "<group>"; };
-		E92AB73B6EA68E1F59AF7E91AF49BD1D /* Pods-ShareReader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareReader_Tests-dummy.m"; sourceTree = "<group>"; };
+		CD0F51FBAAA9C1AE789FD0C1D8C212C3 /* QZoneActivity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = QZoneActivity.png; path = Pod/Assets/QZoneActivity.png; sourceTree = "<group>"; };
+		CFB66A8243C5440FC8BEA973A9D202F1 /* QQActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQActivity.h; path = Pod/Classes/QQActivity.h; sourceTree = "<group>"; };
+		CFD02E86540D2C3FB5BC110B31148C34 /* ShareOne.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShareOne.xcconfig; sourceTree = "<group>"; };
+		D41E6686687DE397D2EF6CF67EAB77E2 /* ReaderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		D4D0EEE60A754F44B315ACCA6467C432 /* WeixinTimelineActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WeixinTimelineActivity.m; path = Pod/Classes/WeixinTimelineActivity.m; sourceTree = "<group>"; };
+		D5D26E8E22FF2F53EE90DBC3F6633058 /* ShareOne-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShareOne-prefix.pch"; sourceTree = "<group>"; };
+		D7E47FBDEEA43674CA01FD4F6D9ECBF6 /* Pods-ShareReader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareReader_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DAE3A856B92C3999F717159AF5943903 /* icon_session-8@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_session-8@2x.png"; path = "Pod/Assets/icon_session-8@2x.png"; sourceTree = "<group>"; };
+		DFB834F5018B5BC6DA04D505B75B7D06 /* ShareOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ShareOne.h; path = Pod/Classes/ShareOne.h; sourceTree = "<group>"; };
+		E7C15DED9E9FDF11D572EA086F619BEC /* QQApiActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiActivity.h; path = Pod/Classes/QQApiActivity.h; sourceTree = "<group>"; };
+		EA0AB71D9C1E410024216584A5341CD0 /* ShareOne.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ShareOne.m; path = Pod/Classes/ShareOne.m; sourceTree = "<group>"; };
+		EDA382FD7EC5B0A9819661EB1F3E4536 /* WeixinTimelineActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeixinTimelineActivity.h; path = Pod/Classes/WeixinTimelineActivity.h; sourceTree = "<group>"; };
+		EF54E6ACFEF41C48CD44CB88A67CB6D0 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		EFA0652A3A064E1331077893B065BC08 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		F10CE597EB7BD406B93021DF60EAE253 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		F1A4D17FD0879C3D849C6F35D388E865 /* Pods-ShareReader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareReader_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F249A8B8F4578ECAEBBCF2A4BA1BF0A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35E448C3D632798671BE209016BFDFD /* ShareReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShareReader-dummy.m"; sourceTree = "<group>"; };
+		F5A186D49C50BF2AFB1B8391409C5966 /* Pods_ShareReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareReader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BCD773326CE511920B97A4BE8EC5FA /* ShareReader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShareReader.xcconfig; sourceTree = "<group>"; };
+		F9271F0D506E60B98F3F614F17530315 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = Pod/SDK/WeChatSDK_1.5/WXApi.h; sourceTree = "<group>"; };
+		FA615579354E3009FE7842FE1BF19F7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6E893B85051B6BB53A03C2CF988C0E /* ReaderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		FE8991BA355C0C7E7E402349317896F7 /* icon_session.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_session.png; path = Pod/Assets/icon_session.png; sourceTree = "<group>"; };
 		FEA1FD7BD378A9517D46A192C07B508A /* Pods-ShareReader_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareReader_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32E402FF36D7DD0F8E6035294E6F7719 /* Frameworks */ = {
+		0D671D5750B0AB4E145AAAFC8B0B0CFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714B35BF6AFE53C04878E06D49FC0BCA /* Foundation.framework in Frameworks */,
+				2A6E3DD508B5632035F87C5175B2DD36 /* SVProgressHUD.framework in Frameworks */,
+				BFC61A8CE3F54778E0C7A961F3D41923 /* ShareOne.framework in Frameworks */,
+				ABD541F84E7AFD8C33F55033E14ED8F7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C01C997FFAE379EE837601A9018549F /* Frameworks */ = {
+		1C77EF527312CABFE10C962E39878C83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5366823056AC58270B8855BB909248F /* Foundation.framework in Frameworks */,
+				9DCD2BDDBF42D6F9D4CAB2E75EB79DB8 /* Foundation.framework in Frameworks */,
+				1732485106EA691601426D5119117A3C /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		963C2D028BA0A6EA4CCBA234584DA553 /* Frameworks */ = {
+		255C0F0595B05213A63A18B46DAD5402 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47E379F3C0F1F9D092EC874CA569E821 /* Foundation.framework in Frameworks */,
+				D63534FA0462AA9E1661C1E886EA2BA0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6D2F9492E947D6C7530BAB6117C9B28 /* Frameworks */ = {
+		4874C84780BE94BDD6AB9053146EA138 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF3C54736416C35A392CD5FA53B6B1E6 /* Foundation.framework in Frameworks */,
+				6D4A923D8C8C9D9D44B98DC50E50E5AB /* CoreGraphics.framework in Frameworks */,
+				68C17F68CA3E4A6D5B6274E51612FD63 /* CoreTelephony.framework in Frameworks */,
+				6EB765122B7B48CB1263630C1B3ADFF1 /* Foundation.framework in Frameworks */,
+				78EC5B9FB21EFABD8D943DC51DB3F0CA /* Security.framework in Frameworks */,
+				F3C3C7B469D1D7CE9F119A960457BC3F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C643A2B285CB9BAF175AA98A323657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AAFCBCF1715D46C55A63126880180F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,12 +289,12 @@
 				772E4FA89B6D634EC1E62D4D7C7F25C6 /* Pods-ShareReader_Tests.modulemap */,
 				0219AABCA0BDA4A86D914FAE27A76FD6 /* Pods-ShareReader_Tests-acknowledgements.markdown */,
 				1910BAF9E6E226673ED88444AB92F85F /* Pods-ShareReader_Tests-acknowledgements.plist */,
-				E92AB73B6EA68E1F59AF7E91AF49BD1D /* Pods-ShareReader_Tests-dummy.m */,
+				022356E2A137B4B90012121828EFA15F /* Pods-ShareReader_Tests-dummy.m */,
 				FEA1FD7BD378A9517D46A192C07B508A /* Pods-ShareReader_Tests-frameworks.sh */,
 				AD14E2ABB50C30420CEFDA2FE8F40E5B /* Pods-ShareReader_Tests-resources.sh */,
-				42A1C96FD493A35CC75D445E38DBB1C7 /* Pods-ShareReader_Tests-umbrella.h */,
-				76F3FC43D76CA7648731EA77BA335BD8 /* Pods-ShareReader_Tests.debug.xcconfig */,
-				179D24087CA8E3404DB5FEDEC2AD27E9 /* Pods-ShareReader_Tests.release.xcconfig */,
+				D7E47FBDEEA43674CA01FD4F6D9ECBF6 /* Pods-ShareReader_Tests-umbrella.h */,
+				25CCFCD346126281C178438062B9E425 /* Pods-ShareReader_Tests.debug.xcconfig */,
+				F1A4D17FD0879C3D849C6F35D388E865 /* Pods-ShareReader_Tests.release.xcconfig */,
 			);
 			name = "Pods-ShareReader_Tests";
 			path = "Target Support Files/Pods-ShareReader_Tests";
@@ -137,11 +303,34 @@
 		0C12B7C182E13F8C63F1A70820C7F070 /* ShareReader */ = {
 			isa = PBXGroup;
 			children = (
-				7CA521EDEE6EC5E21DD49CEBFB7AE9EE /* Pod */,
+				7E88B3ADD03FD94552B2033564EF3EC5 /* Pod */,
 				E55B611108684BE89E38E1AAB4D7C693 /* Support Files */,
 			);
 			name = ShareReader;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		0D7BE64478D60AA2B35245A0BA7EE858 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				D41E6686687DE397D2EF6CF67EAB77E2 /* ReaderViewController.h */,
+				FD6E893B85051B6BB53A03C2CF988C0E /* ReaderViewController.m */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		0FB8130E3C46D72505E1A92FECE559A3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5E7A6C695758A75DB2C240D55EA4F6A /* CoreGraphics.framework */,
+				98B608BC79B8B57A5DC40178B5F485C8 /* CoreTelephony.framework */,
+				91E87DA3AD45A7E8A31BE4D462682BAF /* Foundation.framework */,
+				BFEA0439704EE6232BC2BD8592566245 /* QuartzCore.framework */,
+				517DC295F7D171841356155D9A8C1AE1 /* Security.framework */,
+				4135DB257B1D108DA629041D431E3157 /* SystemConfiguration.framework */,
+				5D2642EA20DD88DBADD0A0E700620654 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		12F83FC917FA286C87B0DF93EB6B584A /* Pods-ShareReader_Example */ = {
@@ -151,39 +340,60 @@
 				5D146F99F0451AE68EFE766C8553CB63 /* Pods-ShareReader_Example.modulemap */,
 				AAA97666696C56DB71D8D342AD08253D /* Pods-ShareReader_Example-acknowledgements.markdown */,
 				54E994A8BD3FAFDC2EBEAE5EBE30D3D1 /* Pods-ShareReader_Example-acknowledgements.plist */,
-				38D745B1AF70CD561AD54729E385DEF3 /* Pods-ShareReader_Example-dummy.m */,
+				26FCFAC5604CB9AAB2D9C74B79A6FD2B /* Pods-ShareReader_Example-dummy.m */,
 				4C81EE1FA70B5C581084B70D1BADD5B5 /* Pods-ShareReader_Example-frameworks.sh */,
 				CC2B8CD973B82F92A5C3885A4ED98897 /* Pods-ShareReader_Example-resources.sh */,
-				3F8FAC742FE0C76984451ED1227AEA09 /* Pods-ShareReader_Example-umbrella.h */,
-				A5A0C3B452CC7C4D34FBD786CD5D82F6 /* Pods-ShareReader_Example.debug.xcconfig */,
-				606F2398F22E50921E0E03D6F9477C5A /* Pods-ShareReader_Example.release.xcconfig */,
+				C57F3AFD39FD52CB0B35A810D411FEF8 /* Pods-ShareReader_Example-umbrella.h */,
+				8D060F87984CC5B4AC6DB640709A186D /* Pods-ShareReader_Example.debug.xcconfig */,
+				0F42E3CD5D67F5BC3A159DC695028C7E /* Pods-ShareReader_Example.release.xcconfig */,
 			);
 			name = "Pods-ShareReader_Example";
 			path = "Target Support Files/Pods-ShareReader_Example";
 			sourceTree = "<group>";
 		};
-		3CC6CC139AC7A217351A2FD59EAD02B2 /* Classes */ = {
+		5D1BB23DEDC2B82B463F3601AB066E8A /* ShareOne */ = {
 			isa = PBXGroup;
 			children = (
-				1DAA5BEBF7E14BD3C181AD4B771522C1 /* ReplaceMe.m */,
+				50148B10539D6873408FCB1CAA5FFD4F /* BaseActivity.h */,
+				C8B71B81FF747DC414649DC38C3EA529 /* BaseActivity.m */,
+				CFB66A8243C5440FC8BEA973A9D202F1 /* QQActivity.h */,
+				0C8E58581814292DB427A9D90488D2AA /* QQActivity.m */,
+				E7C15DED9E9FDF11D572EA086F619BEC /* QQApiActivity.h */,
+				CB8610F79C88B275796A2BB53416E286 /* QQApiActivity.m */,
+				812B9B9B9617AEE623E003D5EB2800F9 /* QZoneActivity.h */,
+				A108C0D4C55ACCB56F96C54FB33AB7BC /* QZoneActivity.m */,
+				DFB834F5018B5BC6DA04D505B75B7D06 /* ShareOne.h */,
+				EA0AB71D9C1E410024216584A5341CD0 /* ShareOne.m */,
+				F9271F0D506E60B98F3F614F17530315 /* WXApi.h */,
+				9A59DF9B6718E9EC11EC8CE12E2B1F2D /* WXApiObject.h */,
+				273779E9E59B6541FA30F169DBC35900 /* WeixinActivity.h */,
+				71E5103D6224B39F2F4C4C6D33B31F7D /* WeixinActivity.m */,
+				174BB08DF20DFFAA6076DCCE05E4CDF7 /* WeixinActivityBase.h */,
+				4A20AE9A61539D18A2F7D29F4ACCD00E /* WeixinActivityBase.m */,
+				4C183734B61A786E8479FF38A80376DE /* WeixinSessionActivity.h */,
+				0F92B41CBEA42F5BDF3773E327D02325 /* WeixinSessionActivity.m */,
+				EDA382FD7EC5B0A9819661EB1F3E4536 /* WeixinTimelineActivity.h */,
+				D4D0EEE60A754F44B315ACCA6467C432 /* WeixinTimelineActivity.m */,
+				B582727A58DE9BB196C87CDCC648CFBA /* Frameworks */,
+				8B32B0E17154817A4DF42A3D76B2796C /* Resources */,
+				B70E212E129B43E08CB95CCDDD31EA45 /* Support Files */,
 			);
-			path = Classes;
+			path = ShareOne;
 			sourceTree = "<group>";
 		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+		6EEEBCCE62946259182C87C8F8BF302D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2FBEF7EE538D18F9CDAD21FAA89218E7 /* Foundation.framework */,
+				F249A8B8F4578ECAEBBCF2A4BA1BF0A1 /* Info.plist */,
+				5BD6C3B6EBDA797F9B93E4796965E960 /* SVProgressHUD.modulemap */,
+				BDBF99C9E85388B9D0EBDE5EF4A27C63 /* SVProgressHUD.xcconfig */,
+				928B2DAD84BFB9287B9FECA9213DA65E /* SVProgressHUD-Private.xcconfig */,
+				EF54E6ACFEF41C48CD44CB88A67CB6D0 /* SVProgressHUD-dummy.m */,
+				5F13DD8697085738FB192535590D42A4 /* SVProgressHUD-prefix.pch */,
+				9C6C861B5ED30C4B142D36B63D68A2DF /* SVProgressHUD-umbrella.h */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7CA521EDEE6EC5E21DD49CEBFB7AE9EE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3CC6CC139AC7A217351A2FD59EAD02B2 /* Classes */,
-			);
-			path = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -191,27 +401,100 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				D3D1AE22B0D97F49349C84A821D6344F /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ED57398504615A69AFA06628CB2BCFF3 /* Frameworks */,
+				B2B3C0A648579CED1E4AE240A80C4648 /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				F790127E04F114986AA6343F2D27299A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		7E88B3ADD03FD94552B2033564EF3EC5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+				D9FB94DD644FC57E89599B4E17058740 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		8B32B0E17154817A4DF42A3D76B2796C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C21A15BD03E321C2770F780A1F789C77 /* QQActivity.png */,
+				CD0F51FBAAA9C1AE789FD0C1D8C212C3 /* QZoneActivity.png */,
+				FE8991BA355C0C7E7E402349317896F7 /* icon_session.png */,
+				B3C9C236671592A6F59876485FE9B2EE /* icon_session-8.png */,
+				DAE3A856B92C3999F717159AF5943903 /* icon_session-8@2x.png */,
+				11403E4E89884B32E191A013C76C8E3D /* icon_session@2x.png */,
+				C7082AEEA05E01E7B1D41F342F1F2ED3 /* icon_timeline.png */,
+				804680736C4AAD1A4112DF392197D975 /* icon_timeline-8.png */,
+				A3B4B1646DA48B7C66F8838F8C1EC00D /* icon_timeline-8@2x.png */,
+				1047E7EF48A34341D7D0276A358D400A /* icon_timeline@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		97C142245988B4D121A5296E5A11DB44 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EFA0652A3A064E1331077893B065BC08 /* SVIndefiniteAnimatedView.h */,
+				8349CD1FB3A95D9854AC129B663067FF /* SVIndefiniteAnimatedView.m */,
+				F10CE597EB7BD406B93021DF60EAE253 /* SVProgressHUD.h */,
+				01FFC5C860F8D98A5180D1D4C5F06B5C /* SVProgressHUD.m */,
+				C8613B4E1493E6608F177302BCA674C6 /* Resources */,
+				6EEEBCCE62946259182C87C8F8BF302D /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		B2B3C0A648579CED1E4AE240A80C4648 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97C142245988B4D121A5296E5A11DB44 /* SVProgressHUD */,
+				5D1BB23DEDC2B82B463F3601AB066E8A /* ShareOne */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B582727A58DE9BB196C87CDCC648CFBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80C35519FE7572296D8CC79D4A96472B /* TencentOpenAPI.framework */,
+				6C50ECC3E5B1FF9ED39F7DF5E4764F2C /* libWeChatSDK.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B70E212E129B43E08CB95CCDDD31EA45 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA615579354E3009FE7842FE1BF19F7D /* Info.plist */,
+				9931712DA2E9D06ED9912D6F0A87978F /* ShareOne.modulemap */,
+				CFD02E86540D2C3FB5BC110B31148C34 /* ShareOne.xcconfig */,
+				AF21DA33F8B66E3533909857DDF82D65 /* ShareOne-Private.xcconfig */,
+				AB1ABE6F15448919D6B212D3AFB618D7 /* ShareOne-dummy.m */,
+				D5D26E8E22FF2F53EE90DBC3F6633058 /* ShareOne-prefix.pch */,
+				4ECBF14F2309A75096E5A87D23BA2411 /* ShareOne-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ShareOne";
+			sourceTree = "<group>";
+		};
+		C8613B4E1493E6608F177302BCA674C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AD0DE76EBB048079F8AF817BA6AD81B /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24B269BE92FD99DCEA42AEBFF16FE4BF /* Pods_ShareReader_Example.framework */,
-				9C88D36959ADFD06D0953DD3301B002E /* Pods_ShareReader_Tests.framework */,
-				40C8C92FA24FF77A02FF23169AEE8C94 /* ShareReader.bundle */,
-				BD490985809CA03AEB69F2089D636DE7 /* ShareReader.framework */,
+				F5A186D49C50BF2AFB1B8391409C5966 /* Pods_ShareReader_Example.framework */,
+				5E3D0E30F3A350313A5A3FC72BA4687C /* Pods_ShareReader_Tests.framework */,
+				B430334E987B6819308DF1B9D11CF1C4 /* SVProgressHUD.framework */,
+				AEB8034586856778980CE4C76AD200A7 /* ShareOne.framework */,
+				67B211A8F4AB63414674AD2EDE6C4726 /* ShareReader.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,19 +507,39 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		D9FB94DD644FC57E89599B4E17058740 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9699175A152304004189A794C527A08C /* ShareReader.h */,
+				678840C55EEC0E522F17D6AA484583A5 /* ShareReader.m */,
+				0D7BE64478D60AA2B35245A0BA7EE858 /* Reader */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		E55B611108684BE89E38E1AAB4D7C693 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				C9C8B06C1EE86ED806359FA8691A654C /* Info.plist */,
 				840836973C095EA4D344FC1FA4BBB793 /* ShareReader.modulemap */,
 				F8BCD773326CE511920B97A4BE8EC5FA /* ShareReader.xcconfig */,
-				5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */,
-				AF6E2A2C1B2EC6442028177F84B99C98 /* ShareReader-dummy.m */,
+				C52B30FAC2E9FD5289783A86D8348CD3 /* ShareReader-Private.xcconfig */,
+				F35E448C3D632798671BE209016BFDFD /* ShareReader-dummy.m */,
 				6BDD063D51F93B92DB61FD746998344B /* ShareReader-prefix.pch */,
-				40C50286A96E783666D0B6FB97E944C1 /* ShareReader-umbrella.h */,
+				C53407947A502D875EA987450957EDC5 /* ShareReader-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ShareReader";
+			sourceTree = "<group>";
+		};
+		ED57398504615A69AFA06628CB2BCFF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD4D9E7E2BBD8BBC50AA1FCA88BBAE /* SVProgressHUD.framework */,
+				34C533601D600169A03A6BA6CCCAA716 /* ShareOne.framework */,
+				0FB8130E3C46D72505E1A92FECE559A3 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F790127E04F114986AA6343F2D27299A /* Targets Support Files */ = {
@@ -251,103 +554,157 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		434E34556977E3C1020EF6089A21F215 /* Headers */ = {
+		1E8A26FC5483B4F0462C830FC4EBB56A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A9DF2241979B933321561BCF61DAFED /* ShareReader-umbrella.h in Headers */,
+				B18408C88D333D7A03B152A006B1A2D1 /* Pods-ShareReader_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BD43D9126B918ABC7A3A62DDFB1DAC9 /* Headers */ = {
+		370094705EFC532E60B482D75389BC78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD189E07D2C685B1C4C83D9F5E178F64 /* Pods-ShareReader_Example-umbrella.h in Headers */,
+				3098633DC33A7D3E14227DF7565F7DD9 /* Pods-ShareReader_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A48E6E7F48969ABCAAFC604F16EDC691 /* Headers */ = {
+		9A7CDEB4ABA576E0B5FF5198BC7B8B7D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AED031006567DFE56ECA9FED9D8877B /* Pods-ShareReader_Tests-umbrella.h in Headers */,
+				7359854A69FB4326EA76E18190203272 /* BaseActivity.h in Headers */,
+				5F73609C93A9A6DC3028B11CC784C983 /* QQActivity.h in Headers */,
+				60FE2284059986F37783B2DC508C4209 /* QQApiActivity.h in Headers */,
+				E3F0C1AC1155C8AB7BFECE0CE8644A85 /* QZoneActivity.h in Headers */,
+				0CFC73761943A050FB58B37210265E64 /* ShareOne-umbrella.h in Headers */,
+				94BE8D973DF96949F27F92D228B780C9 /* ShareOne.h in Headers */,
+				14F2A57AD2F9D97825E2257EEA8EDAF8 /* WXApi.h in Headers */,
+				185A5B05F85886873CBD749D7FC5DF2C /* WXApiObject.h in Headers */,
+				31063720AB2116FEDA649C929C1CFC3A /* WeixinActivity.h in Headers */,
+				C572CEB3CC9614E34C4CFE4C100E3DA6 /* WeixinActivityBase.h in Headers */,
+				A705886B30655DEF702B97955A3AF435 /* WeixinSessionActivity.h in Headers */,
+				D4AA12CE6C5FB9B5B8A48743415F6409 /* WeixinTimelineActivity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEC9033772D8B26F5DB7FBC3149AED0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DAF6242002040BB57C4EDF1C655C3C /* ReaderViewController.h in Headers */,
+				1E215F9EC95F93147B5B2E7AB1710C3E /* ShareReader-umbrella.h in Headers */,
+				34475F7BCFD4E317107D4615AD55D46D /* ShareReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D35ECDAD324D3B66D2FED98B8A0079 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F571377568F4E5BAA75B46531148950E /* SVIndefiniteAnimatedView.h in Headers */,
+				ECCCF9ECC3B9F01651F740F794745B11 /* SVProgressHUD-umbrella.h in Headers */,
+				9FE6EFC004F157E85C0377F31D967214 /* SVProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		16444D8C8E1A8E0166ECFDADD701AE17 /* ShareReader-ShareReader */ = {
+		0CA81FCAF4B958DC141D89A794E4148F /* ShareOne */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80ED575A2BFBFF77F2619239A73B1FFE /* Build configuration list for PBXNativeTarget "ShareReader-ShareReader" */;
+			buildConfigurationList = C3FEAC054CA73E0A7962C100AAC7848B /* Build configuration list for PBXNativeTarget "ShareOne" */;
 			buildPhases = (
-				FBECF646A800CDCAA8A8733399C6A3C4 /* Sources */,
-				32E402FF36D7DD0F8E6035294E6F7719 /* Frameworks */,
-				AB57D08B1C3BF41E676581BD6E818452 /* Resources */,
+				B3B091E45092AE547355912643318B93 /* Sources */,
+				4874C84780BE94BDD6AB9053146EA138 /* Frameworks */,
+				9A7CDEB4ABA576E0B5FF5198BC7B8B7D /* Headers */,
+				89744212903CB8E24E82B3A345254ACE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ShareReader-ShareReader";
-			productName = "ShareReader-ShareReader";
-			productReference = 40C8C92FA24FF77A02FF23169AEE8C94 /* ShareReader.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		639FDBA6CDCAB1326AC151888E193F6F /* ShareReader */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6A3CF90F8360ABF50145C2F0415DBD41 /* Build configuration list for PBXNativeTarget "ShareReader" */;
-			buildPhases = (
-				E3C68B2C212C802A7740EA9C74799301 /* Sources */,
-				5C01C997FFAE379EE837601A9018549F /* Frameworks */,
-				05B090B8856ADE3A216ACD9F9003CAE6 /* Resources */,
-				434E34556977E3C1020EF6089A21F215 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				492BF96FE57BA786926089CD48E843B3 /* PBXTargetDependency */,
-			);
-			name = ShareReader;
-			productName = ShareReader;
-			productReference = BD490985809CA03AEB69F2089D636DE7 /* ShareReader.framework */;
+			name = ShareOne;
+			productName = ShareOne;
+			productReference = AEB8034586856778980CE4C76AD200A7 /* ShareOne.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A6089E6DA38A813734B957A69BFA6D37 /* Pods-ShareReader_Tests */ = {
+		342B0BB3B41CF24917AE64976EEAE91F /* Pods-ShareReader_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEEF8A4227A754B203D019A3A217C154 /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Tests" */;
+			buildConfigurationList = 8047230840F7CA528A5F0722FE2666CE /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Tests" */;
 			buildPhases = (
-				CD0756A18487FAF0740E2CA01E6DD58D /* Sources */,
-				F6D2F9492E947D6C7530BAB6117C9B28 /* Frameworks */,
-				A48E6E7F48969ABCAAFC604F16EDC691 /* Headers */,
+				1BF35F3FBC54634115D063F3F759AEF4 /* Sources */,
+				78C643A2B285CB9BAF175AA98A323657 /* Frameworks */,
+				1E8A26FC5483B4F0462C830FC4EBB56A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AB22A4E80B23F2B994C0137D36977CA4 /* PBXTargetDependency */,
+				53AD52211AC070BEC6A51415624A417C /* PBXTargetDependency */,
+				8A4E2C6E63CD765386FFA4834B852BD2 /* PBXTargetDependency */,
+				417F0BED7AE753EEBABE8601DDBF7024 /* PBXTargetDependency */,
 			);
 			name = "Pods-ShareReader_Tests";
 			productName = "Pods-ShareReader_Tests";
-			productReference = 9C88D36959ADFD06D0953DD3301B002E /* Pods_ShareReader_Tests.framework */;
+			productReference = 5E3D0E30F3A350313A5A3FC72BA4687C /* Pods_ShareReader_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E5201FF5F9F4DF5CE5499833B97AC478 /* Pods-ShareReader_Example */ = {
+		86DAB3DA93C3B44C7CD0DEF16A9DF6E6 /* Pods-ShareReader_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97434C3BB91952C1E0860DFDF0F4A31C /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Example" */;
+			buildConfigurationList = CC90935D33ECC63AB34D9C09550C477F /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Example" */;
 			buildPhases = (
-				15D46AE205408BC80C02EF069173E8E5 /* Sources */,
-				963C2D028BA0A6EA4CCBA234584DA553 /* Frameworks */,
-				7BD43D9126B918ABC7A3A62DDFB1DAC9 /* Headers */,
+				B81F6A081ADAAB86BCF1DE4EF7F2EB12 /* Sources */,
+				255C0F0595B05213A63A18B46DAD5402 /* Frameworks */,
+				370094705EFC532E60B482D75389BC78 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE25355918543F23A0503AE5B40CF95F /* PBXTargetDependency */,
+				1133732A739B9C038C53A6F20FE095BC /* PBXTargetDependency */,
+				9A4330B9154487458091CEB274A9FAFC /* PBXTargetDependency */,
+				C17477F8BF13C0FE7EE13CE36A10A947 /* PBXTargetDependency */,
 			);
 			name = "Pods-ShareReader_Example";
 			productName = "Pods-ShareReader_Example";
-			productReference = 24B269BE92FD99DCEA42AEBFF16FE4BF /* Pods_ShareReader_Example.framework */;
+			productReference = F5A186D49C50BF2AFB1B8391409C5966 /* Pods_ShareReader_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC1DC6D940C88DF6B8EB87810438D0E9 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28954E4F0356D43DD06863AFEC1FEB5 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				BF9554C2DF3F8F83F14BAFF9883500E2 /* Sources */,
+				1C77EF527312CABFE10C962E39878C83 /* Frameworks */,
+				E1D35ECDAD324D3B66D2FED98B8A0079 /* Headers */,
+				B3266F6901677613BC9545641FB69492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = B430334E987B6819308DF1B9D11CF1C4 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEE413D689D9039D444F909696A954E3 /* ShareReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D116614B9A68605E7C36202DF599B39F /* Build configuration list for PBXNativeTarget "ShareReader" */;
+			buildPhases = (
+				17FD7ECD741D8DC169677DFF0988DD43 /* Sources */,
+				0D671D5750B0AB4E145AAAFC8B0B0CFA /* Frameworks */,
+				BBEC9033772D8B26F5DB7FBC3149AED0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D5CD625B0A11EB794EB3ADC7E5A97AC /* PBXTargetDependency */,
+				860A309D0DA8C9B46A437EFC7DE19BE0 /* PBXTargetDependency */,
+			);
+			name = ShareReader;
+			productName = ShareReader;
+			productReference = 67B211A8F4AB63414674AD2EDE6C4726 /* ShareReader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -371,124 +728,403 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5201FF5F9F4DF5CE5499833B97AC478 /* Pods-ShareReader_Example */,
-				A6089E6DA38A813734B957A69BFA6D37 /* Pods-ShareReader_Tests */,
-				639FDBA6CDCAB1326AC151888E193F6F /* ShareReader */,
-				16444D8C8E1A8E0166ECFDADD701AE17 /* ShareReader-ShareReader */,
+				86DAB3DA93C3B44C7CD0DEF16A9DF6E6 /* Pods-ShareReader_Example */,
+				342B0BB3B41CF24917AE64976EEAE91F /* Pods-ShareReader_Tests */,
+				CC1DC6D940C88DF6B8EB87810438D0E9 /* SVProgressHUD */,
+				0CA81FCAF4B958DC141D89A794E4148F /* ShareOne */,
+				FEE413D689D9039D444F909696A954E3 /* ShareReader */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05B090B8856ADE3A216ACD9F9003CAE6 /* Resources */ = {
+		89744212903CB8E24E82B3A345254ACE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C062ED7CF28580C7A0376E0FE0230F0 /* ShareReader.bundle in Resources */,
+				3D10B582BE01024FECF887408BBE6758 /* QQActivity.png in Resources */,
+				8DD578670E0619DFC6D2D0CC0DAFCD83 /* QZoneActivity.png in Resources */,
+				7B6343E7E7B382B6994BFF3B30BB3F88 /* icon_session-8.png in Resources */,
+				CC83A8F919732895A06F2E7807ED6FE6 /* icon_session-8@2x.png in Resources */,
+				B69903838479513DE1AC7189E87675AE /* icon_session.png in Resources */,
+				3F9DE4265DAD90E61551D7A3D2CBEDAF /* icon_session@2x.png in Resources */,
+				5A8460F8B8E279E73F67493ED8E5623A /* icon_timeline-8.png in Resources */,
+				437A0F78EA056E3927CF5933B71EB3CA /* icon_timeline-8@2x.png in Resources */,
+				2B755CF5443B8D3CBC8815949C23F734 /* icon_timeline.png in Resources */,
+				D2D4EBF056147A5EA3055005763023A1 /* icon_timeline@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB57D08B1C3BF41E676581BD6E818452 /* Resources */ = {
+		B3266F6901677613BC9545641FB69492 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759CD61CB52355C3FD91C07D47961319 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15D46AE205408BC80C02EF069173E8E5 /* Sources */ = {
+		17FD7ECD741D8DC169677DFF0988DD43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B430F017A5D467EAEA3E61F269C89783 /* Pods-ShareReader_Example-dummy.m in Sources */,
+				C2CBE30BA2298CB28260FA0B80C2E570 /* ReaderViewController.m in Sources */,
+				D649E8D0480DE49BCC19E7D5F1388D93 /* ShareReader-dummy.m in Sources */,
+				7B2B4CDBF0107CB6F9D0DCD5CAC721D2 /* ShareReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD0756A18487FAF0740E2CA01E6DD58D /* Sources */ = {
+		1BF35F3FBC54634115D063F3F759AEF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D1C9AD2C586BC1A87774537B14003D /* Pods-ShareReader_Tests-dummy.m in Sources */,
+				8460678A4A66CB6CE1F379A6DA746226 /* Pods-ShareReader_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3C68B2C212C802A7740EA9C74799301 /* Sources */ = {
+		B3B091E45092AE547355912643318B93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA577D8BEDD7901D26AD431123C4B4A /* ReplaceMe.m in Sources */,
-				79508723C3C937AB9AEC293AD7405CE1 /* ShareReader-dummy.m in Sources */,
+				DDFCB972400F036B89F86591D437022C /* BaseActivity.m in Sources */,
+				EB091B7B8162E456C8E38A0426777A94 /* QQActivity.m in Sources */,
+				38BB63E1EF03032533DC989A6040BADD /* QQApiActivity.m in Sources */,
+				CD978803242709668ADB925A80876486 /* QZoneActivity.m in Sources */,
+				FBEEDC62A0A5494C10449E86C0F44293 /* ShareOne-dummy.m in Sources */,
+				06A53CFD9BE7D3D004B99B702B5902B6 /* ShareOne.m in Sources */,
+				95CE834243A5A5868A8E3B0C103EA7B7 /* WeixinActivity.m in Sources */,
+				482F1A331B37E546A20A2BDF591800C9 /* WeixinActivityBase.m in Sources */,
+				56B15284096B15777B34E240DBF6E304 /* WeixinSessionActivity.m in Sources */,
+				23ED0B53C493FD2E514BF5E426C1FF76 /* WeixinTimelineActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBECF646A800CDCAA8A8733399C6A3C4 /* Sources */ = {
+		B81F6A081ADAAB86BCF1DE4EF7F2EB12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DCB83AAC7CC229BC29682732D0369A /* Pods-ShareReader_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9554C2DF3F8F83F14BAFF9883500E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C572295CEACB8273135D00F66B6455 /* SVIndefiniteAnimatedView.m in Sources */,
+				4E2F4DEA47E78168DAABBD4063ABC0E7 /* SVProgressHUD-dummy.m in Sources */,
+				04AAD1BB4E5F0608631080A756B78D81 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		492BF96FE57BA786926089CD48E843B3 /* PBXTargetDependency */ = {
+		0D5CD625B0A11EB794EB3ADC7E5A97AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "ShareReader-ShareReader";
-			target = 16444D8C8E1A8E0166ECFDADD701AE17 /* ShareReader-ShareReader */;
-			targetProxy = 9F8AF47DBE44115D9C4A32B3EF6D789C /* PBXContainerItemProxy */;
+			name = SVProgressHUD;
+			target = CC1DC6D940C88DF6B8EB87810438D0E9 /* SVProgressHUD */;
+			targetProxy = 098B66BB94F3743FA354F2CA721B9A13 /* PBXContainerItemProxy */;
 		};
-		AB22A4E80B23F2B994C0137D36977CA4 /* PBXTargetDependency */ = {
+		1133732A739B9C038C53A6F20FE095BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = CC1DC6D940C88DF6B8EB87810438D0E9 /* SVProgressHUD */;
+			targetProxy = B2537DF417FA2E6FCFE699DF164FFA8D /* PBXContainerItemProxy */;
+		};
+		417F0BED7AE753EEBABE8601DDBF7024 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ShareReader;
-			target = 639FDBA6CDCAB1326AC151888E193F6F /* ShareReader */;
-			targetProxy = 85CD4D629A37447E9D6C515B51F83471 /* PBXContainerItemProxy */;
+			target = FEE413D689D9039D444F909696A954E3 /* ShareReader */;
+			targetProxy = 587D60E95DFB25532C7B184628C9B27C /* PBXContainerItemProxy */;
 		};
-		EE25355918543F23A0503AE5B40CF95F /* PBXTargetDependency */ = {
+		53AD52211AC070BEC6A51415624A417C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = CC1DC6D940C88DF6B8EB87810438D0E9 /* SVProgressHUD */;
+			targetProxy = 71062A765A0B5CFCFF1E02E19B144489 /* PBXContainerItemProxy */;
+		};
+		860A309D0DA8C9B46A437EFC7DE19BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShareOne;
+			target = 0CA81FCAF4B958DC141D89A794E4148F /* ShareOne */;
+			targetProxy = 4D0B311D2DA08C3110B56513E5704D97 /* PBXContainerItemProxy */;
+		};
+		8A4E2C6E63CD765386FFA4834B852BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShareOne;
+			target = 0CA81FCAF4B958DC141D89A794E4148F /* ShareOne */;
+			targetProxy = BA9E07935C89A1432F96930EFC48D229 /* PBXContainerItemProxy */;
+		};
+		9A4330B9154487458091CEB274A9FAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShareOne;
+			target = 0CA81FCAF4B958DC141D89A794E4148F /* ShareOne */;
+			targetProxy = 08ADC48EB308173C478EF930BD4C404D /* PBXContainerItemProxy */;
+		};
+		C17477F8BF13C0FE7EE13CE36A10A947 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ShareReader;
-			target = 639FDBA6CDCAB1326AC151888E193F6F /* ShareReader */;
-			targetProxy = C65C3199BEDBA9289117FC0971710489 /* PBXContainerItemProxy */;
+			target = FEE413D689D9039D444F909696A954E3 /* ShareReader */;
+			targetProxy = 27165C30CC1B7BCAA5575A653479A953 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		0C699E969B8FEAC25802CF4F8A9D544D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F42E3CD5D67F5BC3A159DC695028C7E /* Pods-ShareReader_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Example/Pods-ShareReader_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShareReader_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		112CB6BAAC471F7ACD7AEEFB3EC83508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928B2DAD84BFB9287B9FECA9213DA65E /* SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16AA39FE34FADCEAEC4A5A5000FDF368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF21DA33F8B66E3533909857DDF82D65 /* ShareOne-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShareOne/ShareOne-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShareOne/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShareOne/ShareOne.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ShareOne;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BD11F7848026463EBD1CF79ED3E3841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52B30FAC2E9FD5289783A86D8348CD3 /* ShareReader-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShareReader/ShareReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShareReader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShareReader/ShareReader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ShareReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A232B4A9FFC1D23F49F88B5FF05954F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25CCFCD346126281C178438062B9E425 /* Pods-ShareReader_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Tests/Pods-ShareReader_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShareReader_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C777C75C9410A942C2607B24245DE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF21DA33F8B66E3533909857DDF82D65 /* ShareOne-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShareOne/ShareOne-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShareOne/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShareOne/ShareOne.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ShareOne;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D2B8AC0A6AC1A5EF7847D415FD75946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A4D17FD0879C3D849C6F35D388E865 /* Pods-ShareReader_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Tests/Pods-ShareReader_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShareReader_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		869760E3C6CB622C4C78891984E602F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52B30FAC2E9FD5289783A86D8348CD3 /* ShareReader-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShareReader/ShareReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShareReader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShareReader/ShareReader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ShareReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DC8700011F53E0C4CEF034889AA81A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D060F87984CC5B4AC6DB640709A186D /* Pods-ShareReader_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Example/Pods-ShareReader_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShareReader_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -520,102 +1156,32 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		34136376573AE6263FF82BE73D1B02CE /* Debug */ = {
+		AC11D19A0CFC9C8DE20063515C9D15AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ShareReader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		3AC463051C8470ECBEB37BBABABA74AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76F3FC43D76CA7648731EA77BA335BD8 /* Pods-ShareReader_Tests.debug.xcconfig */;
+			baseConfigurationReference = 928B2DAD84BFB9287B9FECA9213DA65E /* SVProgressHUD-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.1.3;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Tests/Pods-ShareReader_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ShareReader_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4FF3196F1A03654D3FCC83C7AF57C916 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ShareReader/ShareReader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ShareReader/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ShareReader/ShareReader.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ShareReader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		63027A3547007B13B5481F718E52AA02 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5A0C3B452CC7C4D34FBD786CD5D82F6 /* Pods-ShareReader_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Example/Pods-ShareReader_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ShareReader_Example;
+				PRODUCT_NAME = SVProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -624,102 +1190,39 @@
 			};
 			name = Debug;
 		};
-		7FD8352DB3F5C938048958B63FB69B79 /* Release */ = {
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 606F2398F22E50921E0E03D6F9477C5A /* Pods-ShareReader_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Example/Pods-ShareReader_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ShareReader_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		8EF2CC0107BBED0ACD5954A55EF7DA99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 179D24087CA8E3404DB5FEDEC2AD27E9 /* Pods-ShareReader_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ShareReader_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ShareReader_Tests/Pods-ShareReader_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ShareReader_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A2D50E7F8A51F6B233DBE39BB4C7485F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ShareReader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		EB1FC0E4DDC979FCF290F34C3EA1B6EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E5121D8A9F89887CD5AD573C3C78131 /* ShareReader-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ShareReader/ShareReader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ShareReader/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ShareReader/ShareReader.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ShareReader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -727,44 +1230,53 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A3CF90F8360ABF50145C2F0415DBD41 /* Build configuration list for PBXNativeTarget "ShareReader" */ = {
+		8047230840F7CA528A5F0722FE2666CE /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB1FC0E4DDC979FCF290F34C3EA1B6EF /* Debug */,
-				4FF3196F1A03654D3FCC83C7AF57C916 /* Release */,
+				2A232B4A9FFC1D23F49F88B5FF05954F /* Debug */,
+				7D2B8AC0A6AC1A5EF7847D415FD75946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80ED575A2BFBFF77F2619239A73B1FFE /* Build configuration list for PBXNativeTarget "ShareReader-ShareReader" */ = {
+		C3FEAC054CA73E0A7962C100AAC7848B /* Build configuration list for PBXNativeTarget "ShareOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34136376573AE6263FF82BE73D1B02CE /* Debug */,
-				A2D50E7F8A51F6B233DBE39BB4C7485F /* Release */,
+				16AA39FE34FADCEAEC4A5A5000FDF368 /* Debug */,
+				7C777C75C9410A942C2607B24245DE0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97434C3BB91952C1E0860DFDF0F4A31C /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Example" */ = {
+		CC90935D33ECC63AB34D9C09550C477F /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63027A3547007B13B5481F718E52AA02 /* Debug */,
-				7FD8352DB3F5C938048958B63FB69B79 /* Release */,
+				9DC8700011F53E0C4CEF034889AA81A0 /* Debug */,
+				0C699E969B8FEAC25802CF4F8A9D544D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEEF8A4227A754B203D019A3A217C154 /* Build configuration list for PBXNativeTarget "Pods-ShareReader_Tests" */ = {
+		D116614B9A68605E7C36202DF599B39F /* Build configuration list for PBXNativeTarget "ShareReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AC463051C8470ECBEB37BBABABA74AC /* Debug */,
-				8EF2CC0107BBED0ACD5954A55EF7DA99 /* Release */,
+				1BD11F7848026463EBD1CF79ED3E3841 /* Debug */,
+				869760E3C6CB622C4C78891984E602F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28954E4F0356D43DD06863AFEC1FEB5 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC11D19A0CFC9C8DE20063515C9D15AE /* Debug */,
+				112CB6BAAC471F7ACD7AEEFB3EC83508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

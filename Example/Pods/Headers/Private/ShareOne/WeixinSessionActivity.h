@@ -1,0 +1,1 @@
+../../../ShareOne/Pod/Classes/WeixinSessionActivity.h

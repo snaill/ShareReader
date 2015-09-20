@@ -1,5 +1,9 @@
 PODS:
-  - ShareReader (0.1.0)
+  - ShareOne (0.1.1)
+  - ShareReader (0.1.0):
+    - ShareOne (~> 0.1.0)
+    - SVProgressHUD
+  - SVProgressHUD (1.1.3)
 
 DEPENDENCIES:
   - ShareReader (from `../`)
@@ -9,6 +13,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ShareReader: e3bf9c88eb40556c7d8693b8a25c1bfb03494839
+  ShareOne: 1f759d5d7938fba13cbd1045af2f53724c520618
+  ShareReader: 145a4ab2026785324ad731ca99d7d82c57ca05d9
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 
 COCOAPODS: 0.38.2

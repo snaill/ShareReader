@@ -1,5 +1,7 @@
 #include "ShareReader.xcconfig"
+ENABLE_BITCODE = ${SHAREREADER_ENABLE_BITCODE}
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/ShareReader" "${PODS_ROOT}/Headers/Public"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/ShareReader" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ShareOne/TencentOpenAPI"
+OTHER_LDFLAGS = ${SHAREREADER_OTHER_LDFLAGS}
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES

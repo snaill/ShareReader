@@ -1,0 +1,1 @@
+../../../ShareOne/Pod/SDK/WeChatSDK_1.5/WXApiObject.h

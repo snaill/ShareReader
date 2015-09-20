@@ -1,25 +1,32 @@
 {
   "name": "ShareReader",
   "version": "0.1.0",
-  "summary": "A short description of ShareReader.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ShareReader",
+  "summary": "sharepai.net Reader SDK.",
+  "homepage": "https://github.com/snaill/ShareReader",
   "license": "MIT",
   "authors": {
     "snaill": "snaill@jeebook.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ShareReader.git",
+    "git": "https://github.com/snaill/ShareReader.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "ShareReader": [
-      "Pod/Assets/*.png"
+  "public_header_files": "Pod/Classes/ShareReader.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ShareOne": [
+      "~> 0.1.0"
+    ],
+    "SVProgressHUD": [
+
     ]
   }
 }

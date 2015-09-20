@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A082B0E37A2F76A9A013FA8"
+               BlueprintIdentifier = "600A5DDA17F9A0304C25BCE2"
                BuildableName = "ShareReader.framework"
                BlueprintName = "ShareReader"
                ReferencedContainer = "container:Pods.xcodeproj">

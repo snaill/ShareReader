@@ -1,0 +1,6 @@
+framework module ShareOne {
+  umbrella header "ShareOne-umbrella.h"
+
+  export *
+  module * { export * }
+}

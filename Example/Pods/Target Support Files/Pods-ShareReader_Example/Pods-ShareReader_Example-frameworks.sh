@@ -52,8 +52,12 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Pods-ShareReader_Example/SVProgressHUD.framework'
+  install_framework 'Pods-ShareReader_Example/ShareOne.framework'
   install_framework 'Pods-ShareReader_Example/ShareReader.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Pods-ShareReader_Example/SVProgressHUD.framework'
+  install_framework 'Pods-ShareReader_Example/ShareOne.framework'
   install_framework 'Pods-ShareReader_Example/ShareReader.framework'
 fi

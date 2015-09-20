@@ -1,0 +1,4 @@
+SHAREONE_ENABLE_BITCODE = NO
+SHAREONE_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/ShareOne/Pod/SDK/TencentOpenAPI-2.9.0-min"
+SHAREONE_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/ShareOne/Pod/SDK/WeChatSDK_1.5"
+SHAREONE_OTHER_LDFLAGS = -l"WeChatSDK" -l"iconv" -l"sqlite3" -l"stdc++" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI"

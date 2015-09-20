@@ -7,6 +7,7 @@
 //
 
 #import "SRViewController.h"
+#import <ShareReader/ShareReader.h>
 
 @interface SRViewController ()
 
@@ -24,6 +25,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)onClicked:(id)sender {
+    
+    UIViewController * vc = [ShareReader readerWithID:@"P-0BF2B6DE-7A3B-15A2-574D-53D532192E51"];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

@@ -16,11 +16,8 @@
 #define URL_TYPE_POSTS      @"posts"
 #define KEY_USERAGENT       @"UserAgent"
 
-@interface ReaderViewController()<UIWebViewDelegate> {
-    BOOL _webViewDidLoad;
-}
+@interface ReaderViewController()<UIWebViewDelegate>
 
-@property (nonatomic, strong) NSString * postId;
 @property (nonatomic, strong) NSURL * url;
 @property (nonatomic, strong) UIWebView * webView;
 
@@ -33,15 +30,18 @@
     
     // Load the object model via RestKit
     self.url = [self urlForWithParams:@{URL_KEY_ID:ID, URL_KEY_TYPE: URL_TYPE_POSTS}];
-    self.postId = ID;
+}
+
+- (void)readerWithURL:(NSURL *)url {
+    
+    // Load the object model via RestKit
+    self.url = url;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    _webViewDidLoad = NO;
-    
     self.view.backgroundColor = [UIColor blackColor];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(onShare:)];
 
@@ -101,20 +101,16 @@
 #pragma mark - UIWebViewDelegate
 
 - (void)webViewDidStartLoad:(UIWebView *)webView {
-    if (!_webViewDidLoad) {
-        [SVProgressHUD show];
-    }
+    [SVProgressHUD show];
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     [SVProgressHUD dismiss];
-    _webViewDidLoad = YES;
     self.title = [self.webView stringByEvaluatingJavaScriptFromString:@"document.title"];
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
     [SVProgressHUD dismiss];
-    _webViewDidLoad = YES;
 }
 
 @end

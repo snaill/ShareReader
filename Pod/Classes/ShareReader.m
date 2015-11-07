@@ -17,4 +17,10 @@
     return vc;
 }
 
++ (id)readerWithURL:(NSURL *)url {
+    ReaderViewController * vc = [ReaderViewController new];
+    [vc readerWithURL:url];
+    return vc;
+}
+
 @end

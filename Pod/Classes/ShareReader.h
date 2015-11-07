@@ -11,4 +11,5 @@
 @interface ShareReader : NSObject
 
 + (id)readerWithID:(NSString *)ID;
++ (id)readerWithURL:(NSURL *)url;
 @end

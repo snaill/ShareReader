@@ -11,4 +11,5 @@
 @interface ReaderViewController : UIViewController
 
 - (void)readerWithPostID:(NSString *)ID;
+- (void)readerWithURL:(NSURL *)url;
 @end

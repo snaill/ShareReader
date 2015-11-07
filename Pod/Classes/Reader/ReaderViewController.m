@@ -14,6 +14,7 @@
 #define URL_KEY_TYPE        @"type"
 #define URL_KEY_ID          @"id"
 #define URL_TYPE_POSTS      @"posts"
+#define KEY_USERAGENT       @"UserAgent"
 
 @interface ReaderViewController()<UIWebViewDelegate> {
     BOOL _webViewDidLoad;
@@ -22,6 +23,8 @@
 @property (nonatomic, strong) NSString * postId;
 @property (nonatomic, strong) NSURL * url;
 @property (nonatomic, strong) UIWebView * webView;
+
+@property (nonatomic, strong) NSString * userAgent;
 @end
 
 @implementation ReaderViewController
@@ -42,6 +45,8 @@
     self.view.backgroundColor = [UIColor blackColor];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(onShare:)];
 
+    [self setUserAgent];
+    
     self.webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
     self.webView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     self.webView.scalesPageToFit = YES;
@@ -56,6 +61,16 @@
     
     [self.webView stopLoading];
     self.webView.delegate = nil;
+    
+    NSDictionary *registeredDefaults = [[NSUserDefaults standardUserDefaults] volatileDomainForName:NSRegistrationDomain];
+    if ([registeredDefaults objectForKey:KEY_USERAGENT] != nil) {
+        NSMutableDictionary *mutableCopy = [NSMutableDictionary dictionaryWithDictionary:registeredDefaults];
+        [mutableCopy removeObjectForKey:KEY_USERAGENT];
+        if ([self.userAgent length] > 0) {
+            [mutableCopy setObject:self.userAgent forKey:KEY_USERAGENT];
+        }
+        [[NSUserDefaults standardUserDefaults] setVolatileDomain:[mutableCopy copy] forName:NSRegistrationDomain];
+    }
 }
 
 - (void)onShare:(id)sender {
@@ -69,6 +84,18 @@
 - (NSURL *)urlForWithParams:(NSDictionary *)params {
     NSString * string = [NSString stringWithFormat:@"%@%@/%@.html", API_BASE_URL, [params valueForKey:URL_KEY_TYPE], [params valueForKey:URL_KEY_ID]];
     return [NSURL URLWithString:string];
+}
+
+- (void)setUserAgent {
+    
+    self.userAgent = [[NSUserDefaults standardUserDefaults] stringForKey:KEY_USERAGENT];
+    
+    NSString * userAgent = [[UIWebView new] stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
+    
+    NSString * appName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
+    NSString *version = [[NSBundle mainBundle] infoDictionary][@"CFBundleShortVersionString"];
+    NSString *appUserAgent = [userAgent stringByAppendingFormat:@" sharepai.%@/%@", appName, version];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:@{KEY_USERAGENT: appUserAgent}];
 }
 
 #pragma mark - UIWebViewDelegate
